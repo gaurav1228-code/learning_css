@@ -1,0 +1,40 @@
+.txt_transform_up {
+    text-transform: uppercase;
+}
+
+.txt_transform_low {
+    text-transform: lowercase;
+}
+
+.txt_transform_cap {
+    text-transform: capitalize;
+    color: brown;
+}
+.txt_centre{
+    text-align: center;
+}
+.txt_right{
+    text-align: right;
+}
+.txt_deco_under{
+    text-decoration: underline dotted;
+}
+.txt_deco_over{
+    text-decoration: overline double;
+}
+.txt_deco_linethro{
+    text-decoration: line-through dashed;
+}
+.txt{
+    text-decoration: underline overline line-through double;
+}
+.txt_indent{
+    text-indent: 100px;
+    line-height: 25px;
+}
+.letter_spacing{
+    letter-spacing: 10px;
+}
+.word_spacing{
+    word-spacing: 10px;
+}
