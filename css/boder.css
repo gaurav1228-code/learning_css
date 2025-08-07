@@ -1,0 +1,11 @@
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#head{
+    width: 550px;
+    border: 4px solid;
+    border-color: red blue red blue;
+    display: flex;
+    border-radius: 10px;
+}
