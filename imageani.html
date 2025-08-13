@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 350px;
+        transform-origin: top;
+        border: 10px solid rgb(174, 137, 89);
+        animation: myani 5s infinite alternate;
+    }
+    @keyframes myani{
+        from{transform: rotate(7deg);}
+        to{transform: rotate(-7deg);}
+        
+    }
+</style>
+<body>
+    <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt="">
+    </div>
+</body>
+</html>

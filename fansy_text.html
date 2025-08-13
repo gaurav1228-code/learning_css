@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .textcontainer {
+        text-align: center;
+        font-size: 70px;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        margin-top: 30px;
+        perspective: 100px;
+        transform-style: preserve-3d;
+      }
+     
+      b {
+        display: inline-block;
+        height: 80px;
+        padding: 5px;
+        box-shadow: 5px 15px 2px gray;
+        background: linear-gradient(to bottom, red, orange, yellow, black);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transform-origin: top;
+        animation: getUp 10s infinite;
+      }
+
+      b:nth-child(1) {
+        animation-delay: 0s;
+      }
+      b:nth-child(2) {
+        animation-delay: 0.25s;
+      }
+      b:nth-child(3) {
+        animation-delay: 0.5s;
+      }
+      b:nth-child(4) {
+        animation-delay: 0.75s;
+      }
+      b:nth-child(5) {
+        animation-delay: 1s;
+      }
+      b:nth-child(6) {
+        animation-delay: 1.25s;
+      }
+      
+      @keyframes getUp {
+        0% {
+          transform: rotateX(-85deg);
+        }
+        10%,
+        50% {
+          transform: rotateX(0deg);
+        }
+        60%,
+        100% {
+          transform: rotateX(-85deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="textcontainer">
+      <b>G</b> <b>A</b> <b>U</b> <b>R</b> <b>A</b> <b>V</b>
+      
+    </div>
+  </body>
+</html>
